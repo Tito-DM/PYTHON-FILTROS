@@ -4,6 +4,7 @@ from numpy.core.numeric import convolve;
 
 y= [0,1,-1,1,-1];
 h = [1,-1,0,0,0];
+
 convolution = np.convolve(y,h);
 
 x = np.arange(len(convolution));
